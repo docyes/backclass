@@ -6,6 +6,6 @@ var RouteHandler = function(options) {
 };
 _.extend(RouteHandler.prototype, Events, {
     initialize: function() {},
-    terminate: function() {}
+    destroy: function() {}
 });
 RouteHandler.extend = Backbone.Router.extend;
