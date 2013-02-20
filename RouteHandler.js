@@ -8,3 +8,4 @@ _.extend(RouteHandler.prototype, Events, {
     initialize: function() {},
     terminate: function() {}
 });
+RouteHandler.extend = Backbone.Router.extend;
