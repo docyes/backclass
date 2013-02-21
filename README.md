@@ -1,4 +1,4 @@
-routehandler
+Backbone Class
 ============
 
-Backbone Route Handler
+A boilerplate for creating new class defintions using the Backbone.<Class>extend convention.
