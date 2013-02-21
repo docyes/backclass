@@ -1,6 +1,6 @@
-# Backbone Class
+# Backclass
 
-A boilerplate for creating new class defintions using the Backbone.<Class>extend convention.
+A base class for creating new class defintions using the Backbone.<Model|Collection|Router>.extend convention and Backbone.Events mixin.
 
 ## Example
 ```js
