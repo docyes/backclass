@@ -27,4 +27,9 @@ Foo.classProperty;
 var foo = new Foo;
 foo.instanceFunction();
 foo.instanceProperty;
+foo.on('event', function() {
+    console.log('event');
+    }
+);
+foo.trigger('event');
 ```
