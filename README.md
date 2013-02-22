@@ -13,7 +13,7 @@ var Foo = Backbone.Class.extend(
         },
         instanceProperty: '',
         instanceFunction: function () {
-        
+            //...
         }
     },
     //class
