@@ -1,6 +1,6 @@
 # Backclass
 
-A base class for creating new class defintions using the Backbone.<Model|Collection|Router>.extend convention and Backbone.Events mixin.
+A base class for creating new class defintions using the Backbone.&lt;Model|Collection|Router&gt;.extend convention and Backbone.Events mixin.
 
 ## Example
 ```js
