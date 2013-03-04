@@ -33,7 +33,7 @@ Foo.baz();
 ```js
 var Foo = Backbone.Class.extend({
     initialize: function() {
-        alert('')
+        //...
     }
 });
 ```
@@ -54,7 +54,7 @@ var Foo = Backbone.Class.extend({
 });
 var foo = new Foo();
 foo.on('baz', function() {
-   alert('baz event fired') 
+   alert('baz event fired');
 });
 foo.bar();
 ```
