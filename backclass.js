@@ -5,4 +5,4 @@ Backbone.Class = function() {
 _.extend(Backbone.Class.prototype, Backbone.Events, {
     initialize: function(){}
 });
-Backobone.Class.extend = Backbone.Model.extend;
+Backbone.Class.extend = Backbone.Model.extend;
