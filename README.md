@@ -29,7 +29,7 @@ Foo.bar;
 Foo.baz();
 ```
 
-## initialize
+## Constructor/Initialize
 ```js
 var Foo = Backbone.Class.extend({
     initialize: function() {
@@ -38,7 +38,7 @@ var Foo = Backbone.Class.extend({
 });
 ```
 
-## cid
+##  Unique Identifier
 var Foo = Backbone.Class.extend({});
 var foo = new Foo();
 foo.cid;
