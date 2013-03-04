@@ -32,10 +32,12 @@ Foo.baz();
 ## Constructor/Initialize
 ```js
 var Foo = Backbone.Class.extend({
-    initialize: function() {
-        //...
+    initialize: function(bar) {
+        this.bar = bar;
     }
 });
+var foo = new Foo('bar');
+foo.bar;
 ```
 
 ##  Unique Identifier
