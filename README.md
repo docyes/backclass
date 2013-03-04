@@ -4,7 +4,7 @@ A base class for creating new class defintions using the Backbone.&lt;Model|Coll
 Classes include the static extend method, Backbone.Events mixin and instance level post initialize function 
 and cid property.
 
-## Instance
+## Instance Members
 ```js
 var Foo = Backbone.Class.extend({
     bar: 'bar',
@@ -17,7 +17,7 @@ foo.bar;
 foo.baz();
 ```
 
-## Class
+## Class Members
 ```js
 var Foo = Backbone.Class.extend({}, {
     bar: 'bar',
