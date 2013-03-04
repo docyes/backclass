@@ -38,6 +38,7 @@ var Foo = Backbone.Class.extend({
 });
 ```
 
+```js
 ##  Unique Identifier
 var Foo = Backbone.Class.extend({});
 var foo = new Foo();
