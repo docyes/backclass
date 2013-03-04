@@ -44,3 +44,17 @@ var Foo = Backbone.Class.extend({});
 var foo = new Foo();
 foo.cid;
 ```
+
+##  Events
+```js
+var Foo = Backbone.Class.extend({
+    bar: function() {
+        this.trigger('baz');
+    }
+});
+var foo = new Foo();
+foo.on('baz', function() {
+   alert('baz event fired') 
+});
+foo.bar();
+```
